@@ -19,7 +19,7 @@
 
 ## About this app 🗣
 
-A simple app showing how to use Flavors using Dart Defines (Thx [DeividWillyan](https://github.com/DeividWillyan/Flutter-Auto-Flavors) with this [helper](https://github.com/DeividWillyan/Flutter-Auto-Flavors)) and show a flavor banner.
+A simple app showing how to use Flavors using Dart Defines (Thx [DeividWillyan](https://github.com/DeividWillyan/) with this [helper](https://github.com/DeividWillyan/Flutter-Auto-Flavors)) and show a flavor banner.
 
 ## Flavor - Dev 
 ```
