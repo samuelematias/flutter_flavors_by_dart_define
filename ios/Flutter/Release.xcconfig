@@ -1,1 +1,3 @@
 #include "Generated.xcconfig"
+#include "Define-defaults.xcconfig"
+#include "Define.xcconfig"
