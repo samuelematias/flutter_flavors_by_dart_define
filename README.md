@@ -19,7 +19,7 @@
 
 ## About this app 🗣
 
-A simple app showing how to use Flavors using Dart Defines (Thx [DeividWillyan](https://github.com/DeividWillyan/) with this [helper](https://github.com/DeividWillyan/Flutter-Auto-Flavors)) and show a flavor banner.
+A simple app showing how to use Flavors using Dart Defines (Thanks [DeividWillyan](https://github.com/DeividWillyan/) for this [helper](https://github.com/DeividWillyan/Flutter-Auto-Flavors)) and show a flavor banner.
 
 ## Flavor - Dev 
 ```
@@ -51,9 +51,6 @@ If you wanna run this app on vsCode, just Copy/Paste this code bellow on your `l
 
 ```json
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
