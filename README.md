@@ -79,7 +79,6 @@ If you wanna run this app on vsCode, just Copy/Paste this code bellow on your `l
             "name": "Launch production",
             "request": "launch",
             "type": "dart",
-            "console": "debugConsole",
         }
     ]
 }
