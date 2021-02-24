@@ -45,6 +45,49 @@ flutter run --dart-define=DEFINE_APP_NAME='[QA] App Flavor' --dart-define=DEFINE
     <img alt="Flavor - iOS"  src="https://i.imgur.com/FEVSIVF.png" />
 </p>
 
+## Running on VsCode (launch.json)
+
+If you wanna run this app on vsCode, just Copy/Paste this code bellow on your `launch.json` on vsCode:
+
+```json
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch development",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define",
+                "DEFINE_APP_NAME=[DEV] App Flavor",
+                "--dart-define",
+                "DEFINE_APP_SUFFIX=.dev"
+            ],
+        },
+        {
+            "name": "Launch qa",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define",
+                "DEFINE_APP_NAME=[QA] App Flavor",
+                "--dart-define",
+                "DEFINE_APP_SUFFIX=.qa"
+            ],
+        },
+        {
+            "name": "Launch production",
+            "request": "launch",
+            "type": "dart",
+            "console": "debugConsole",
+        }
+    ]
+}
+```
+
 ## Tech Stack 👩🏾‍💻
 
 - [Dart](https://dart.dev/)
